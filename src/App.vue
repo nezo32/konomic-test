@@ -20,7 +20,9 @@
 
     <VMain>
       <VContainer>
-        <RouterView />
+        <Suspense>
+          <RouterView />
+        </Suspense>
       </VContainer>
     </VMain>
   </VApp>

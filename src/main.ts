@@ -1,4 +1,4 @@
-import { createApp, defineComponent } from 'vue'
+import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
 import vuetify from './plugins/vuetify'
@@ -12,6 +12,6 @@ app.use(createPinia())
 app.use(router)
 app.use(vuetify)
 
-
 app.mount('#app')
+
 
